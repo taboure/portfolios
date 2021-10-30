@@ -7,13 +7,13 @@ const Main = ({ children, router }) => {
     <Box>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Mamadou AGNE | Portfolio</title>
+        <title>Mamadou T. AGNE | Portfolio</title>
       </Head>
 
       <Navbar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        <VoxelDog />
+        {/* <VoxelDog /> */}
         {children}
       </Container>
     </Box>

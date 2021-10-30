@@ -30,7 +30,7 @@ const Logo = () => {
           fontWeight='bold'
           ml={3}
           >
-            Mamadou T. AGNE
+            Mamadou Taboure AGNE
           </Text>
         </LogoBox>
       </a>

@@ -24,7 +24,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
     <NextLink href={href} passHref>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        bgGradient={active ? 'linear(to-r, teal.500, green.500)' : undefined}
         color={active ? '#202023' : inactiveColor}
         _target={_target}
         {...props}
@@ -73,21 +73,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
-          <LinkItem
-            _target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            
-            Source
-          </LinkItem>
+          
         </Stack>
 
         <Box flex={1} align="right">
@@ -102,21 +88,9 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                >
-                  View Source
-                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
