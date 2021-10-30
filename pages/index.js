@@ -20,11 +20,10 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
-  IoLogoDiscord,
   IoLogoGitlab,
-  IoLogoLinkedin
+  IoLogoLinkedin,
+  IoLogoMedium
 } from 'react-icons/io5'
 
 const Page = () => (
@@ -89,6 +88,14 @@ const Page = () => (
               >
               </Button>
             </Link>
+            <Link href="https://medium.com/@moomoagne" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoMedium} />}
+              >
+              </Button>
+            </Link>
           </ListItem>
           </List>
         </Box>
@@ -99,7 +106,7 @@ const Page = () => (
         mt={{ base: 1, md: 4 }}
         p={3}
         textAlign="center"
-        bgGradient={useColorModeValue('whiteAlpha.100', 'linear(to-r, green.200, pink.500)')}
+        bgGradient={useColorModeValue('linear(to-r, green.200, pink.500)', 'linear(to-r, green.200, pink.500)')}
       >
       👋 Hello, I&apos;am Mamadou Taboure AGNE web developer based in Senegal!
       </Box>
@@ -110,7 +117,7 @@ const Page = () => (
         </Heading>
         <Paragraph>
           I&apos;am a developer based in Senegal with 4 years of experience, I&apos;am
-          passioned for building digital services/stuff he wants. {' '}.
+          passioned for building digital services/stuff he wants. {' '}
           I spend my whole day, practically every day, experimenting with PHP, HTML, CSS, and JavaScript.
           I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction
         </Paragraph>

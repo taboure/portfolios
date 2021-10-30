@@ -7,6 +7,7 @@ import thumbFree from '../public/images/works/free-min.png'
 import thumbBanqueAgricole from '../public/images/works/banqueagricole-min.png'
 import thumbPobs from '../public/images/works/portailb2b-min.png'
 import thumbPos from '../public/images/works/portailb2c-min.png'
+import thumbRaob from '../public/images/works/raob-min.png'
 import Paragraph from '../components/paragraph'
 
 const Works = () => (
@@ -21,7 +22,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6} mt={4}>
         <Section>
-          <WorkGridItem id="free" title="Portail FREE SN" thumbnail={thumbFree}>  
+          <WorkGridItem 
+            id="free" 
+            title="Portail FREE SN" 
+            thumbnail={thumbFree}
+            >  
           </WorkGridItem>
         </Section>
         <Section>
@@ -33,7 +38,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section>
           <WorkGridItem
             id="ba"
             title="La banque agricole du sénégal"
@@ -41,8 +46,21 @@ const Works = () => (
           >
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="osn" thumbnail={thumbPos} title="Portail Orange Sénégal">
+        <Section>
+          <WorkGridItem 
+            id="osn" 
+            thumbnail={thumbPos} 
+            title="Portail Orange Sénégal"
+            >
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem 
+            id="raob" 
+            thumbnail={thumbRaob} 
+            title="Réseau Africain des Organismes de Bassin"
+            >
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -18,19 +18,19 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/moprint${useColorModeValue('-dark', '')}.png`
   return(
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="Logo"/>
+          <Image src={footPrintImg} width={20} height={20} alt="Logo" color="#FFFFFF" />
           <Text 
           color={useColorModeValue('gray.800','whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif' 
           fontWeight='bold'
           ml={3}
           >
-            Mamadou Taboure AGNE
+            amadou Taboure AGNE
           </Text>
         </LogoBox>
       </a>
