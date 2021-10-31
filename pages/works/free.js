@@ -5,10 +5,10 @@ import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Free = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Free Sénégal">
     <Container>
       <Title>
-        Free Senegal <Badge>2019-</Badge>
+        Free Sénégal <Badge>2019-</Badge>
       </Title>
       <Paragraph>
       Web portal of free senegal, mobile operator based in Senegal. Website developed by myself.
