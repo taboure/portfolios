@@ -7,7 +7,6 @@ import thumbFree from '../public/images/works/free-min.png'
 import thumbBanqueAgricole from '../public/images/works/banqueagricole-min.png'
 import thumbPobs from '../public/images/works/portailb2b-min.png'
 import thumbPos from '../public/images/works/portailb2c-min.png'
-import thumbRaob from '../public/images/works/raob-min.png'
 import Paragraph from '../components/paragraph'
 
 const Works = () => (
@@ -55,14 +54,14 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section>
+        {/* <Section>
           <WorkGridItem 
             id="raob" 
             thumbnail={thumbRaob} 
             title="Réseau Africain des Organismes de Bassin"
             >
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
     </Container>

@@ -53,7 +53,7 @@ const Page = () => (
           <Heading as="h2" variant="page-title">
             Mamadou T. AGNE
           </Heading>
-          <p>Web developer </p>
+          <p>Full Stack developer </p>
           <List>
             <ListItem>
             <Link href="https://github.com/taboure" target="_blank">
@@ -100,7 +100,7 @@ const Page = () => (
           </List>
         </Box>
       </Box>
-      <Box
+      {/* <Box
         borderRadius="lg"
         mb={6}
         mt={{ base: 1, md: 4 }}
@@ -109,17 +109,16 @@ const Page = () => (
         bgGradient={useColorModeValue('linear(to-r, green.200, pink.500)', 'linear(to-r, green.200, pink.500)')}
       >
       👋 Hello, I&apos;am Mamadou Taboure AGNE web developer based in Senegal!
-      </Box>
+      </Box> */}
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
         <Paragraph>
-          I&apos;am a developer based in Senegal with 4 years of experience, I&apos;am
-          passioned for building digital services/stuff he wants. {' '}
-          I spend my whole day, practically every day, experimenting with PHP, HTML, CSS, and JavaScript.
-          I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction
+        👋 I&apos;am a developer based in Senegal with more than 5 years of experience, 
+          I spend my whole day doing PHP, HTML, CSS and JavaScript. 
+          I&apos;am curious and enjoy work that challenges me to learn something new and point me in a different direction
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -184,8 +183,8 @@ const Page = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Drupal developer at Orange - Sonatel 
-          <em>(Dec - Now)</em>
+          Full Stack developer at Orange Sonatel
+          <em>(Dec 2019 - Now)</em>
         </BioSection>
       </Section>
 
