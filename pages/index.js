@@ -53,14 +53,6 @@ const Page = () => (
           <p>Full Stack developer </p>
           <List>
             <ListItem>
-            <Link href="https://github.com/taboure" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoGithub} />}
-              >
-              </Button>
-            </Link>
             <Link href="https://www.linkedin.com/in/mamadou-agne-/" target="_blank">
               <Button
                 variant="ghost"
