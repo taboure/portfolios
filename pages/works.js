@@ -53,15 +53,6 @@ const Works = () => (
             >
           </WorkGridItem>
         </Section>
-
-        {/* <Section>
-          <WorkGridItem 
-            id="raob" 
-            thumbnail={thumbRaob} 
-            title="Réseau Africain des Organismes de Bassin"
-            >
-          </WorkGridItem>
-        </Section> */}
       </SimpleGrid>
 
     </Container>

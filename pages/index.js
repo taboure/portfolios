@@ -5,19 +5,16 @@ import {
   Heading,
   Box,
   Image,
-  SimpleGrid,
   Button,
   List,
   ListItem,
   Icon,
-  useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear, BioEducation, BioEducationYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import {
   IoLogoTwitter,
   IoLogoGithub,
@@ -100,17 +97,6 @@ const Page = () => (
           </List>
         </Box>
       </Box>
-      {/* <Box
-        borderRadius="lg"
-        mb={6}
-        mt={{ base: 1, md: 4 }}
-        p={3}
-        textAlign="center"
-        bgGradient={useColorModeValue('linear(to-r, green.200, pink.500)', 'linear(to-r, green.200, pink.500)')}
-      >
-      👋 Hello, I&apos;am Mamadou Taboure AGNE web developer based in Senegal!
-      </Box> */}
-
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
           Work
