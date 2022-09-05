@@ -11,7 +11,7 @@ const Ba = () => (
       LA BANQUE AGRICOLE <Badge>2019-</Badge>
       </Title>
       <Paragraph>
-      Un réseau dense de plus de 35 agences réparties dans toutes les régions du Sénégal; Une offre de produits et services financiers adaptés et innovants
+      A dense network of more than 35 agencies distributed in all regions of Senegal; An offer of adapted and innovative financial products and services
       </Paragraph>
       <List ml={4} my={4}>
         <ListItem>
